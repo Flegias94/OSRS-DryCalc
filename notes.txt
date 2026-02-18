@@ -1,0 +1,1 @@
+- add projected estimate when the player would be done with the current grind
