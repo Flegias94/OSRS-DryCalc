@@ -1,0 +1,36 @@
+{
+  "Corrupted Gauntlet": {
+    "display_name": "Corrupted Gauntlet",
+    "rule": "all",
+    "targets": [
+      {
+        "key": "enhanced_seed",
+        "display_name": "Enhanced Crystal Weapon Seed",
+        "distribution": "geometric",
+        "p": 0.0025,
+        "required_count": 1
+      },
+      {
+        "key": "armor_seeds",
+        "display_name": "Crystal Armor Seed",
+        "distribution": "negbinom",
+        "p": 0.02,
+        "required_count": 6
+      }
+    ]
+  },
+  
+  "Phantom Muspah": {
+    "display_name": "Phantom Muspah",
+    "rule": "all",
+    "targets": [
+      {
+        "key": "venator_shard",
+        "display_name": "Venator Shard",
+        "distribution": "negbinom",
+        "p": 0.01,
+        "required_count": 5
+      }
+    ]
+  }
+}
